@@ -4,6 +4,17 @@ A Python-based console application developed as part of my **AI/ML Internship at
 
 ---
 
+## 🎥 Project Demo
+
+A demonstration of the Utility Usage Prediction Tool showcasing:
+- Menu-driven console interface
+- Adding utility usage records
+- Updating existing records
+- Machine learning prediction
+- CSV data management
+
+> Demo video: 
+
 ## 📖 Project Overview
 
 The Utility Usage Prediction Tool is a menu-driven console application designed to:
