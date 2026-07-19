@@ -1,0 +1,9 @@
+Utility_Type,Month,Usage
+mar,245.0
+Electricity,jan,56.0
+Electricity,march-2026,345.0
+Water,mar-2026,20.0
+Electricity,jan-2026,100.0
+Electricity,jun-2026,150.0
+Gas,mar-2027,40.0
+Electricity,july-2026,300.0
