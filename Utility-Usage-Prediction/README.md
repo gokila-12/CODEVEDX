@@ -13,7 +13,7 @@ A demonstration of the Utility Usage Prediction Tool showcasing:
 - Machine learning prediction
 - CSV data management
 
-> Demo video: 
+> Demo video: https://github.com/user-attachments/assets/25821336-b59b-491b-9d24-9a7783d5ed43
 
 ## 📖 Project Overview
 
