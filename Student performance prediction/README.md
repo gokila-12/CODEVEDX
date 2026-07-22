@@ -3,6 +3,12 @@
 A Machine Learning-based console application that predicts a student's final performance using attendance, marks, and study hours. The project also includes data preprocessing, visualization, and model evaluation to provide insights into student performance.
 
 ---
+## 🎥 Demo Video
+
+Watch the complete project demonstration here:
+
+▶️ **Demo Video:** https://github.com/user-attachments/assets/f8e72114-41c5-4537-91b0-e7893a791423
+
 
 ## 📌 Project Overview
 
