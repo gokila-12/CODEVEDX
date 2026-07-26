@@ -26,9 +26,9 @@ CODEVEDX/
 │
 ├── utility-usage-prediction/
 │
-├── student-performance-prediction/
+├── student performance prediction/
 │
-├── fake-news-detection/
+├── Ai-Based-fake-news-detection-Tool/
 │
 ├── ai-helpdesk-chatbot/
 │
