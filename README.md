@@ -24,11 +24,11 @@ This repository contains all the projects completed as part of the AI/ML Interns
 ```
 CODEVEDX/
 │
-├── utility-usage-prediction/
+├── Utility-Usage-Prediction/
 │
-├── student performance prediction/
+├── Student performance prediction/
 │
-├── Ai-Based-fake-news-detection-Tool/
+├── Ai-Based-Fake-News-Detection-Tool/
 │
 ├── ai-helpdesk-chatbot/
 │
