@@ -54,7 +54,7 @@ AI-Based-Fake-News-Detection/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/AI-Based-Fake-News-Detection.git
+git clone https://github.com/gokila-12/AI-Based-Fake-News-Detection.git
 cd AI-Based-Fake-News-Detection
 ```
 
@@ -146,6 +146,7 @@ Scientists have discovered a new renewable energy source capable of powering ent
 
 ```
 Prediction: Real News ✅
+confidence : 65.78%
 ```
 
 ---
