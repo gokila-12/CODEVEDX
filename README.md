@@ -135,8 +135,7 @@ CODEVEDX/
 - Matplotlib
 - Scikit-learn
 - NLTK
-- Flask
-- Git & GitHub
+- Git / GitHub
 
 ---
 
