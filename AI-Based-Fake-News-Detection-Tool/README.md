@@ -4,6 +4,11 @@ An AI-powered **Fake News Detection System** built using **Machine Learning** an
 
 ---
 
+## DEMO VIDEO:
+
+Here is the link: https://github.com/user-attachments/assets/811889f1-4992-4d34-8999-67ef90cf26ed
+
+---
 ## 📌 Overview
 
 The rapid spread of misinformation across online platforms has made fake news detection an important research area. This project leverages Machine Learning algorithms to classify news articles based on their textual content, helping users identify potentially misleading information.
