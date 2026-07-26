@@ -61,7 +61,6 @@ cd AI-Based-Fake-News-Detection
 ```bash
 pip install -r requirements
 ```
-( install the required libraries manually:)
 
 ```bash
 pip install pandas numpy scikit-learn nltk
