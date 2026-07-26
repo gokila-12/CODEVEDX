@@ -26,7 +26,6 @@ The rapid spread of misinformation across online platforms has made fake news de
 
 - Python 
 - Pandas
-- NumPy
 - Scikit-learn
 - NLTK
 - Pickle
@@ -42,8 +41,7 @@ AI-Based-Fake-News-Detection/
 ├── data_manager.py         
 ├── ml_model.py             
 ├── fake_news_model.pkl     
-├── news_data.csv           
-├── requirements.txt        
+├── news_data.csv                  
 └── README.md               
 ```
 
@@ -61,10 +59,9 @@ cd AI-Based-Fake-News-Detection
 ### Install dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements
 ```
-
-If you don't have a `requirements.txt`, install the required libraries manually:
+( install the required libraries manually:)
 
 ```bash
 pip install pandas numpy scikit-learn nltk
