@@ -30,7 +30,7 @@ CODEVEDX/
 │
 ├── Ai-Based-Fake-News-Detection-Tool/
 │
-├── ai-Chatbot-for-Internal-Helpdesk/
+├── ai_Chatbot_for_Internal_Helpdesk/
 │
 ├── smart-recommendation-system/
 │
