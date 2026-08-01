@@ -5,7 +5,7 @@ An AI-powered **Internal Helpdesk Chatbot** built using **Python, Flask, HTML, C
 ---
 ## DEMO VIDEO
 
-https://github.com/user-attachments/assets/c7abf322-cba8-415f-b501-c27cf0d6bf44
+Here is the link: https://github.com/user-attachments/assets/c7abf322-cba8-415f-b501-c27cf0d6bf44
 
 ## 📌 Features
 
