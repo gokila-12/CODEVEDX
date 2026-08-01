@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Internal Helpdesk</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>🤖 Helpdesk AI</h2>
+
+<button class="new-chat" onclick="newChat()">
++ New Chat
+</button>
+
+<div class="history">
+
+<p onclick="quickQuestion('leave policy')">
+📄 Leave Policy
+</p>
+
+<p onclick="quickQuestion('forgot password')">
+🔑 Password Reset
+</p>
+
+<p onclick="quickQuestion('attendance')">
+🕒 Attendance
+</p>
+
+<p onclick="quickQuestion('office timing')">
+🏢 Office Timing
+</p>
+
+<p onclick="quickQuestion('salary date')">
+💰 Salary Date
+</p>
+
+</div>
+
+</div>
+
+<div class="chat-section">
+
+<div class="header">
+
+🤖 AI Internal Helpdesk Chatbot
+
+</div>
+
+<div id="chat-area" class="chat-area">
+
+<div class="bot">
+
+<div class="avatar">🤖</div>
+
+<div class="message">
+
+Hello 👋<br><br>
+
+Welcome to Internal Helpdesk.
+
+Ask me anything.
+
+</div>
+
+</div>
+
+</div>
+
+<div class="input-area">
+
+<input
+id="message"
+type="text"
+placeholder="Ask anything..."
+>
+
+<button onclick="sendMessage()">
+➤
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

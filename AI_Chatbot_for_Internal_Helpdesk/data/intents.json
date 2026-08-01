@@ -1,0 +1,432 @@
+[
+    {
+        "intent":"greeting",
+        "patterns":[
+            "hello",
+            "hi",
+            "good morning",
+            "hey",
+            "good evening"
+        ],
+        "response":"Hello! Welcome to Internal Helpdesk."
+    },
+
+    {
+        "intent":"leave_policy",
+        "patterns":[
+            "leave policy",
+            "casual leave",
+            "annual leave",
+            "leave details"
+        ],
+        "response":"Employees receive 12 Casual Leaves and 12 Sick Leaves every year."
+    },
+
+    {
+        "intent":"office_time",
+        "patterns":[
+            "office timing",
+            "working hours",
+            "office time",
+            "company timing"
+        ],
+        "response":"Office timing is 9:00 AM to 6:00 PM."
+    },
+
+    {
+        "intent":"password_reset",
+        "patterns":[
+            "forgot password",
+            "reset password",
+            "password problem",
+            "change password"
+        ],
+        "response":"Go to the Self-Service Portal and click 'Forgot Password'."
+    },
+
+    {
+        "intent":"salary",
+        "patterns":[
+            "salary date",
+            "payday",
+            "salary credit"
+        ],
+        "response":"Salary is credited on the last working day of every month."
+    },
+
+    {
+        "intent":"attendance",
+        "patterns":[
+            "attendance",
+            "mark attendance",
+            "biometric",
+            "attendance system"
+        ],
+        "response":"Attendance is marked using the biometric attendance system."
+    }
+    ,
+{
+    "intent":"vpn_issue",
+    "patterns":[
+        "vpn issue",
+        "vpn not working",
+        "cannot connect vpn",
+        "vpn connection failed",
+        "remote access problem"
+    ],
+    "response":"Please restart the VPN client and reconnect. If the issue continues, contact the IT Helpdesk."
+},
+
+{
+    "intent":"email_issue",
+    "patterns":[
+        "email not working",
+        "outlook issue",
+        "cannot send email",
+        "cannot receive email",
+        "mail problem"
+    ],
+    "response":"Restart Outlook and check your internet connection. If the issue persists, contact IT."
+},
+
+{
+    "intent":"printer_issue",
+    "patterns":[
+        "printer not working",
+        "printer issue",
+        "cannot print",
+        "printer offline",
+        "paper jam"
+    ],
+    "response":"Please check the printer connection and paper supply. If the issue continues, raise an IT support ticket."
+},
+
+{
+    "intent":"internet_issue",
+    
+        "patterns":[
+    "internet not working",
+    "wifi issue",
+    "wifi is not working",
+    "wifi not working",
+    "network issue",
+    "slow internet",
+    "wifi not connecting",
+    "no internet"
+],
+    
+    "response":"Restart your system and reconnect to the office network. Contact the Network Team if the issue continues."
+},
+
+{
+    "intent":"work_from_home",
+    "patterns":[
+        "work from home",
+        "wfh policy",
+        "remote work",
+        "can i work from home",
+        "home working policy"
+    ],
+    "response":"Employees can work from home with manager approval according to the company policy."
+},
+
+{
+    "intent":"holiday_list",
+    "patterns":[
+        "holiday list",
+        "company holidays",
+        "public holidays",
+        "holiday calendar",
+        "next holiday"
+    ],
+    "response":"The company holiday calendar is available on the HR Portal."
+},
+
+{
+    "intent":"medical_insurance",
+    "patterns":[
+        "medical insurance",
+        "health insurance",
+        "insurance policy",
+        "insurance details",
+        "medical claim"
+    ],
+    "response":"Employees are covered under the company health insurance plan. Contact HR for claim details."
+},
+
+{
+    "intent":"employee_id",
+    "patterns":[
+        "employee id",
+        "id card",
+        "new id card",
+        "lost id card",
+        "replace id card"
+    ],
+    "response":"Please contact the HR department to request or replace your employee ID card."
+},
+
+{
+    "intent":"hr_contact",
+    "patterns":[
+        "hr contact",
+        "contact hr",
+        "hr email",
+        "hr phone number",
+        "who is hr"
+    ],
+    "response":"You can contact HR by emailing hr@company.com or visiting the HR office during working hours."
+},
+
+{
+    "intent":"cafeteria",
+    "patterns":[
+        "cafeteria",
+        "canteen",
+        "cafeteria timing",
+        "food court",
+        "lunch timing"
+    ],
+    "response":"The cafeteria is located on the ground floor and is open from 8:00 AM to 6:00 PM."
+},
+
+{
+    "intent":"parking",
+    "patterns":[
+        "parking",
+        "car parking",
+        "bike parking",
+        "parking area",
+        "visitor parking"
+    ],
+    "response":"Employee parking is available in Basement Level 1. Visitors should use the designated visitor parking area."
+},
+
+{
+    "intent":"transport",
+    "patterns":[
+        "transport",
+        "office bus",
+        "cab service",
+        "pickup",
+        "drop service"
+    ],
+    "response":"The company provides transport services for eligible employees. Contact the Transport Team for route details."
+},
+
+{
+    "intent":"dress_code",
+    "patterns":[
+        "dress code",
+        "office dress",
+        "formal wear",
+        "company dress code",
+        "casual friday"
+    ],
+    "response":"Employees are expected to wear business casual attire. Casual wear is permitted on Fridays."
+},
+
+{
+    "intent":"notice_period",
+    "patterns":[
+        "notice period",
+        "resignation notice",
+        "leaving company",
+        "notice duration",
+        "notice policy"
+    ],
+    "response":"The standard notice period is 30 days unless stated otherwise in your employment contract."
+},
+
+{
+    "intent":"resignation",
+    "patterns":[
+        "resign",
+        "resignation",
+        "quit job",
+        "leave company",
+        "exit process"
+    ],
+    "response":"Submit your resignation through the HR Portal and inform your reporting manager."
+},
+
+{
+    "intent":"reimbursement",
+    "patterns":[
+        "reimbursement",
+        "expense claim",
+        "travel claim",
+        "claim expenses",
+        "medical reimbursement"
+    ],
+    "response":"Expense reimbursements can be submitted through the Finance Portal with valid receipts."
+},
+
+{
+    "intent":"software_installation",
+    "patterns":[
+        "install software",
+        "software request",
+        "need software",
+        "application installation",
+        "install microsoft office"
+    ],
+    "response":"Raise an IT support request to install approved software on your office laptop."
+},
+
+{
+    "intent":"laptop_issue",
+    "patterns":[
+        "laptop not working",
+        "computer problem",
+        "system hanging",
+        "slow laptop",
+        "blue screen"
+    ],
+    "response":"Restart your laptop. If the issue continues, contact the IT Helpdesk for technical support."
+},
+
+{
+    "intent":"thanks",
+    "patterns":[
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "thank you so much",
+        "great"
+    ],
+    "response":"You're welcome! Happy to help."
+},
+
+{
+    "intent":"goodbye",
+    "patterns":[
+        "bye",
+        "goodbye",
+        "see you",
+        "bye bye",
+        "have a nice day"
+    ],
+    "response":"Goodbye! Have a wonderful day."
+}
+,
+{
+    "intent":"training",
+    "patterns":[
+        "training programs",
+        "employee training",
+        "learning portal",
+        "online courses",
+        "skill development"
+    ],
+    "response":"Employees can access training courses through the Learning Management System (LMS)."
+},
+
+{
+    "intent":"meeting_room",
+    "patterns":[
+        "book meeting room",
+        "meeting room",
+        "conference room",
+        "reserve meeting room",
+        "meeting room booking"
+    ],
+    "response":"Meeting rooms can be booked using the Outlook Calendar or the Meeting Room Portal."
+},
+
+{
+    "intent":"laptop_request",
+    "patterns":[
+        "request laptop",
+        "new laptop",
+        "replace laptop",
+        "laptop request",
+        "office laptop"
+    ],
+    "response":"Please submit a laptop request through the IT Service Portal. Approval from your manager is required."
+},
+
+{
+    "intent":"software_license",
+    "patterns":[
+        "software license",
+        "license request",
+        "microsoft office license",
+        "adobe license",
+        "software activation"
+    ],
+    "response":"Software licenses are provided based on business requirements. Please submit a request through the IT portal."
+},
+
+{
+    "intent":"visitor_pass",
+    "patterns":[
+        "visitor pass",
+        "guest pass",
+        "visitor entry",
+        "bring visitor",
+        "visitor registration"
+    ],
+    "response":"Visitor passes can be requested through the Security Desk or the Visitor Management Portal."
+},
+
+{
+    "intent":"travel_policy",
+    "patterns":[
+        "travel policy",
+        "business travel",
+        "official trip",
+        "travel reimbursement",
+        "travel approval"
+    ],
+    "response":"Business travel requires manager approval. Travel expenses can be claimed through the Finance Portal."
+},
+
+{
+    "intent":"birthday_leave",
+    "patterns":[
+        "birthday leave",
+        "birthday holiday",
+        "leave on birthday",
+        "birthday benefit",
+        "birthday off"
+    ],
+    "response":"Please refer to the HR policy. Birthday leave availability depends on company policy."
+},
+
+{
+    "intent":"overtime",
+    "patterns":[
+        "overtime",
+        "extra working hours",
+        "overtime payment",
+        "working late",
+        "ot policy"
+    ],
+    "response":"Overtime is applicable only for approved work and will be compensated according to company policy."
+},
+
+{
+    "intent":"mobile_reimbursement",
+    "patterns":[
+        "mobile reimbursement",
+        "phone bill",
+        "telephone reimbursement",
+        "mobile allowance",
+        "claim phone bill"
+    ],
+    "response":"Eligible employees can claim mobile reimbursements through the Finance Portal."
+},
+
+{
+    "intent":"feedback",
+    "patterns":[
+        "give feedback",
+        "submit feedback",
+        "complaint",
+        "suggestion",
+        "employee feedback"
+    ],
+    "response":"You can submit your feedback or suggestions through the Employee Feedback Portal or contact HR."
+}
+]
