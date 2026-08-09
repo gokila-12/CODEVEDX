@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Built with Python, Flask, Machine Learning, SQLite, HTML, CSS and JavaScript.
+  Built with Python, Flask, Machine Learning, HTML, CSS and JavaScript.
 </p>
 
 ---
