@@ -20,6 +20,13 @@ The recommendation engine uses **TF-IDF Vectorization** and **Cosine Similarity*
 
 ---
 
+##Demo Video
+
+
+https://github.com/user-attachments/assets/95bf4831-cb02-4a76-8955-85c88e1b4daa
+
+
+
 ## ✨ Features
 
 ### 🎬 Movie Discovery
