@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="result-header">
+
+        <h1>🎬 Recommendations</h1>
+
+        <h2>
+            Based on:
+            <span>{{ movie }}</span>
+        </h2>
+
+    </div>
+
+    {% if recommendations %}
+
+    <div class="recommendation-grid">
+
+        {% for item in recommendations %}
+
+        <div class="recommendation-card">
+
+            <h2>{{ item.title }}</h2>
+
+            <span class="genre">
+                {{ item.genre }}
+            </span>
+
+            <p>
+                {{ item.description }}
+            </p>
+
+            <div class="score-section">
+
+                <div class="score-text">
+                    Similarity Score
+                </div>
+
+                <div class="score-value">
+                    {{ item.score }}%
+                </div>
+
+                <div class="progress">
+
+                    <div
+                        class="progress-bar"
+                        style="width: {{ item.score }}%;">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    {% else %}
+
+    <div class="not-found">
+
+        <h2>No Recommendations Found</h2>
+
+        <p>
+            Please choose another movie from the list.
+        </p>
+
+    </div>
+
+    {% endif %}
+
+    <div class="back-btn">
+
+        <a href="/">
+            ← Search Another Movie
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>

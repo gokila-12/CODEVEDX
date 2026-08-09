@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>My Watchlist</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>❤️ My Watchlist</h1>
+
+{% if movies %}
+
+<div class="movie-row">
+
+{% for movie in movies %}
+
+<div class="movie-card">
+
+<img src="https://placehold.co/220x320?text={{ movie|replace(' ','+') }}">
+
+<div class="movie-info">
+
+<h3>{{ movie }}</h3>
+
+<a href="/watchlist/delete/{{ movie }}">
+
+<button class="login-btn">
+
+Remove
+
+</button>
+
+</a>
+
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% else %}
+
+<h2>No Movies Added Yet</h2>
+
+{% endif %}
+
+<br>
+
+<a href="/">
+
+<button class="watch-btn">
+
+⬅ Back Home
+
+</button>
+
+</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎬 AI Stream Admin</h1>
+
+<div class="info">
+
+<div class="card">
+
+<h2>{{ total_movies }}</h2>
+
+<p>Total Movies</p>
+
+</div>
+
+<div class="card">
+
+<h2>{{ total_users }}</h2>
+
+<p>Registered Users</p>
+
+</div>
+
+<div class="card">
+
+<h2>{{ total_watchlist }}</h2>
+
+<p>Watchlist Entries</p>
+
+</div>
+
+</div>
+
+<a href="/admin/add">
+
+<button class="watch-btn">
+
+➕ Add Movie
+
+</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
