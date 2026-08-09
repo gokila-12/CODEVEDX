@@ -82,6 +82,7 @@ Recommended Movies
 ```
 
 ## project Structure
+```text
 Smart-Recommendation-System/
 │
 ├── datasets/
@@ -116,4 +117,8 @@ Smart-Recommendation-System/
 ├── train.py
 ├── test.py
 └── users.db
+
+```
+
+
 
