@@ -79,7 +79,7 @@ Cosine Similarity
      ▼
 Recommended Movies
 
-text```
+```
 
 ## project Structure
 Smart-Recommendation-System/
