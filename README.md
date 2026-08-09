@@ -32,7 +32,7 @@ CODEVEDX/
 │
 ├── ai_Chatbot_for_Internal_Helpdesk/
 │
-├── smart-recommendation-system/
+├── Smart-Recommendation-System/
 │
 └── README.md
 ```
@@ -173,7 +173,6 @@ Each project includes:
 
 - ✅ Source Code
 - ✅ README Documentation
-- ✅ Requirements File
 - ✅ Demo Video
 - ✅ Git Commit History
 
