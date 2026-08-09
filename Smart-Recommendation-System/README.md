@@ -119,6 +119,40 @@ Smart-Recommendation-System/
 └── users.db
 
 ```
+##Tech Stack
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Backend development |
+| Flask | Web framework |
+| Pandas | Dataset processing |
+| Scikit-learn | Machine learning |
+| TF-IDF | Text vectorization |
+| Cosine Similarity | Recommendation algorithm |
+| Joblib | Model storage |
+| SQLite | Database |
+| Flask-Bcrypt | Password hashing |
+| HTML5 | Frontend |
+| CSS3 | Styling |
+| JavaScript | Frontend functionality |
+| Jinja2 | Template rendering |
+
+## 🚀 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/gokila-12/CODEVEDX.git
+cd CODEVEDX/Smart-Recommendation-System
+```
+```bash
+pip install flask pandas scikit-learn  flask-bcrypt
+```
+```bash
+python train.py
+python app.py
+```
 
 
 
