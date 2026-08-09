@@ -153,6 +153,31 @@ pip install flask pandas scikit-learn  flask-bcrypt
 python train.py
 python app.py
 ```
+## 🎥 Current Status
+
+The current version provides the movie discovery and recommendation experience, including movie details, search, favorites, watchlist, authentication, and recommendation features.
+
+The **Watch**, **Watch Now**, and **Continue** buttons are currently part of the interface. Actual movie/video playback is planned for a future version.
+
+## 🔮 Future Improvements
+
+- 🎥 Actual movie/video playback
+- ▶️ HTML5 video player
+- 🤖 More personalized recommendations
+- 👥 Collaborative filtering
+- ⭐ User ratings and reviews
+- 👤 User profiles
+- 🎭 Cast and director information
+- 📱 Improved mobile responsiveness
+- ☁️ Online deployment
+- 📈 Recommendation analytics
+
+  ## 👨‍💻 Author
+
+**Gokila Krishna B**
+
+GitHub:  
+https://github.com/gokila-12
 
 
 
